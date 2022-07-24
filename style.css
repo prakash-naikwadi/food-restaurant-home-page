@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(3, 32, 60, 0.74),
+      rgba(3, 32, 60, 0.753)
+    ),
+    url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgb(207, 186, 158);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar {
+  /* max-width: 120rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aqua; */
+  height: 9.6rem;
+  /* padding: 3.2rem 0 3.2rem 0; */
+}
+
+.logo {
+  /* width: 75%; */
+  width: 12.4rem;
+}
+
+.list {
+  display: flex;
+  gap: 3.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #e8bd0d;
+
+  list-style: none;
+
+  margin: 0 0.8rem 0 0.8rem;
+}
+
+.button-small {
+  padding: 1.2rem 3.2rem;
+  font-size: 1.6rem;
+  background-color: #e6425e;
+  color: #fff;
+  border: none;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+  max-width: 120rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 4.8rem; */
+  text-align: center;
+  align-items: center;
+}
+
+.hero-heading {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 7.4rem;
+  color: #f4be2c;
+  max-width: 75%;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.button-large {
+  padding: 1.8rem 4.8rem;
+  font-size: 2.4rem;
+  background-color: #e6425e;
+  color: #fff;
+  border: none;
+  margin-bottom: 2.4rem;
+}
+
+.bottom {
+  align-self: flex-end;
+}
+
+.bottom img {
+  width: 70%;
+}
