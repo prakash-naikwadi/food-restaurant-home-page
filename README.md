@@ -1,4 +1,4 @@
-## ⭐ HTML CSS Template Project 02 ⭐
+## ⭐ Food Restaurant Home Page Project 02 ⭐
 
 This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
 <br>
